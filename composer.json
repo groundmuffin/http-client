@@ -21,13 +21,19 @@
             "email": "me@kelunik.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/groundmuffin/file"
+        }
+    ],
     "require": {
         "php": ">=7.0",
         "amphp/amp": "^2",
         "amphp/byte-stream": "^1.1.6",
         "amphp/socket": "^0.10.5",
         "amphp/uri": "^0.1",
-        "amphp/file": "^0.2 || ^0.3",
+        "amphp/file": "dev-v3",
         "kelunik/certificate": "^1.1"
     },
     "require-dev": {
